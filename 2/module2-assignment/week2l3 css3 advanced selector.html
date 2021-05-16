@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Advanced Selector</title>
+	<style type="text/css">
+		/*direct child of section*/
+		section > article {
+			color: gray;
+			opacity:0.7;
+			text-align: center;
+		}
+		/*select all the p whose class is highlight*/
+		p.highlight {
+			background-color: green;
+			font-weight: bold;
+			width: 800px;
+			font-size: 20px
+		}
+		/*select all p that is a descendant of div*/
+		div p {
+			border-style: dotted;
+			border-left-style: solid;
+			border-width:3px 3px;
+			/*2px top and bottom, 2px on the sides*/
+			border-color:blue;
+		}
+	</style>
+</head>
+<body>
+	<section>Section 1
+		<article>Art 1</article>
+		<article>Art 2</article>
+		<article>Art 3</article>
+	</section>
+	<p class="highlight">This sentense should be highlighted</p>
+	<div>
+		<p>It is a p inside the div.</p>
+		<p class="highlight">It is a p inside the div that should be highlighted.</p>
+		<span>It is a span inside the div.</span>
+	</div>
+</body>
+</html>

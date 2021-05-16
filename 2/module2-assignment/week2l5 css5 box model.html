@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Box Model</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0;   /*It should be stated in * if I want to reset the browser style*/
+			padding: 0;
+			background-color: gray;
+		}
+		#Box {
+			background-color: rgba(200,100,20,0.6);
+			font-size: 1.5em;
+			font-weight: bold;
+			text-align: center;
+			padding: 5px;
+			border:5px solid black;
+			margin: 10px;
+			width: 600px;
+			height: 200px;
+			overflow: auto;
+			/*add scroll bar where needed*/
+		}
+		#content {
+			background-color: green;
+			opacity: 0.7;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;margin-bottom: 20px">Box Model</h1>
+	<div id="Box"><p id="content">If I could get another chance, I will take design seriously rather than give it to my stupid group mates.If I could get another chance, I will take design seriously rather than give it to my stupid group mates.If I could get another chance, I will take design seriously rather than give it to my stupid group mates.If I could get another chance, I will take design seriously rather than give it to my stupid group mates.If I could get another chance, I will take design seriously rather than give it to my stupid group mates.</p>
+		<p>This is a separate paragraph.</p>
+	</div>
+	
+</body>
+</html>
