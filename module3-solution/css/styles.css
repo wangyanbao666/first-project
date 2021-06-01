@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+}
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 3px solid black;
+}
+
+#header-nav .container {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#header-nav .container .navbar-header {
+	width: 100%;
+	/*background-color: green;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+#companyName{
+	margin-left: 10px;
+	padding-top: 3px;
+	font-size: 2em;
+	vertical-align: middle;
+	/*width: 200px;*/
+}
+
+.navbar-header button.navbar-toggle {
+/*  clear: both;*/
+  clear: both;
+  margin-top: -35px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ 	border: 1.7px solid black;
+}
+
+#collapsable-nav {
+	margin:0;
+	background-color: white;
+	clear: both;
+}
+#nav-list li hr {
+	width: 100%;
+	border:2px solid black;
+	margin: 0;
+}
+#nav-list li {
+	height: 40px;
+}
+
+#nav-list li a {
+	color: black;
+	font-size: 1.5em;
+	line-height: 0.5;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#menu-title {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.block {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: 1%;
+	margin-right: 1%;
+	overflow: hidden;
+	position: relative;
+	border:2px solid black;
+	height:1000px;
+	background-color: #798789;
+}
+
+.subtitle {
+	padding: 10px;
+	margin: 0;
+}
+
+.back {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+@media (min-width: 992px) {
+	.block {
+		width: 31%;
+		float: left;
+		padding: 10px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.beef,.chicken {
+		width: 48%;
+		float: left;
+		padding: 10px;
+	}
+}
